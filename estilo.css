@@ -28,10 +28,23 @@
     color: #fff;
 }
 
+
+
 html{
     font-size: 65%;
     overflow: hidden;
 }
+
+
+@media (max-width:900px){
+
+    main {
+        padding: 0 3%;
+        padding-top: 7.5rem;
+    }
+  
+}
+
 
 
 /* cor de fundo do site */
@@ -77,8 +90,52 @@ header .navbar a:hover{
 
 
 
-/* MENU RESPONSIVO */
 
+  main {
+      min-height: 100vh;
+      padding: 0 9%;
+      padding-top: 7.5rem;
+  }
+
+  .home {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: url(../img/home-bg.png);
+      background-size: cover;
+      background-position: center;
+  }
+
+  .home .imagem img {
+    width: 40vw;
+    animation: float 3s linear infinite;
+  }
+
+  @keyframes float{
+      0%, 100%{
+          transform: translateY(0rem);
+      }
+      50%{
+          transform: translateY(-2.5rem);
+      }
+  }
+
+  .home .conteudo h1{
+      font-size: 5.5rem;
+      color:#334;
+      text-transform: uppercase;
+
+  }
+
+  .home .conteudo p{
+    font-size: 1.5rem;
+    color:#334;
+    padding: 1rem 0;
+}
+
+
+/* MEDIA QUERIRES */
+/* MENU RESPONSIVO */
 @media (max-width: 600px) {
     #menu {
       display: block;
@@ -140,8 +197,55 @@ header .navbar a:hover{
       transform: rotate(-135deg);
       top: -7px;
     }
+
+     
+    .home{
+        flex-flow: column-reverse;
+    }
+
+    .home .imagem img{
+        width:100%;
+    }
+
+    .home .conteudo h3{
+        font-size: 3.6rem;
+    }
+
+    .home .conteudo p{
+        font-size: 1.5rem;
+    }
+
+
   }
 
   /* FIM MENU RESPONSIVO */
 
-  
+
+
+  @media (max-width:1280px){
+
+    html{
+        font-size: 55%;
+    }
+}
+
+
+@media (max-width:990px){
+    
+    main{
+        padding:0 3%;
+        padding-top: 7.5rem;
+        padding-bottom: 2rem;
+    }
+
+}
+
+
+
+@media (max-width:450px){
+    
+    html{
+        font-size: 50%;
+    }
+
+}
