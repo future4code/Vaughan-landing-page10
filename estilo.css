@@ -42,7 +42,7 @@ body{
 
 
 header{
-    position: fixed;
+    /* position: fixed; */
     width: 100%;
     background: #fff;
     box-shadow: 0 .6rem 1rem rgba(0, 0, 0, .1);
@@ -144,4 +144,19 @@ header .navbar a:hover{
 
   /* FIM MENU RESPONSIVO */
 
+  /* section sobre nos */
+
+  .sobre-nos-box img{ 
+    width: 40rem;
+    height: 30rem;
+  }
   
+  #sobre-nos h2 { 
+    font-size: 3rem;
+    color: var(--coral)
+  }
+
+  .sobre-nos-box h3{ 
+    font-size: 2rem;
+    color: var(--coral);
+  }
