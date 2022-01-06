@@ -1,3 +1,10 @@
+*{ 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
 
 /* Importando a fonte Lato do google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Playfair+Display:ital,wght@0,400;0,500;1,400&display=swap');
@@ -32,7 +39,7 @@
 
 html{
     font-size: 65%;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 
@@ -55,7 +62,7 @@ body{
 
 
 header{
-    /* position: fixed; */
+    position: fixed;
     width: 100%;
     background: #fff;
     box-shadow: 0 .6rem 1rem rgba(0, 0, 0, .1);
@@ -87,7 +94,6 @@ header .navbar a:hover{
 #btn-mobile {
     display:none;
 }
-
 
 
 
@@ -248,4 +254,60 @@ header .navbar a:hover{
         font-size: 50%;
     }
 
+}
+
+
+
+/*  sobre nos  */
+
+#sobre-nos img{ 
+    width: 440px;
+    height: 240px;
+    border-radius: 5px;
+}
+
+#sobre-nos h3{ 
+    color: var(--coral);   
+     font-size: 2rem;
+
+}
+
+#sobre-nos p{ 
+ 
+    font-size:1.2rem;
+    /* font-weight: bold; */
+}
+
+#sobre-nos { 
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1f 4fr 4fr ;
+    /* row-gap:20px; */
+    justify-items: center;
+    height: calc(100vh - 70px);
+
+}
+
+#sobre-nos h2{ 
+    font-weight: bold;
+    color: var(--coral);
+    font-size: 3rem;
+}
+.sobre-nos-h2p{
+    grid-column: 1/-1;
+    justify-self: start;
+    margin: 0 0 20px 50px;
+    
+}
+
+#sobre-nos span{ 
+    font-size: 2rem;
+    font-weight: bold;
+    background-color: coral;
+    padding: 8px;
+    position: relative;
+    color: var(--branco);
+    top: -265px;
+    left: -10px;
+    border-radius: 4px;
 }
