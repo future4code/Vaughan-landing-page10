@@ -6,6 +6,8 @@
     <meta name="description" content="Tradição e Inovação no seu Bolso" />
     <title>F4Bank - O seu banco digital sem anuidade</title>
     <link rel="stylesheet" href="estilo.css" />
+    <!--Utilizar icones do font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
   </head>
   <body>
     <!-- Inicio do Header-->
@@ -53,16 +55,24 @@
       </ul>
     </nav>
 
-    <main class="home">
+
+
+
+    <!-- Home -->
+    <main class="home" id="home">
       <div class="conteudo">
-        <h1>Lorem ipsum dolor sit amet consectetur Fadipisicing elit. Aut</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipis Lorem Ipsum. Lore</p>
+        <h1>Um banco sem tarifas, nossa missão é crescer junto com você</h1>
+        <p>Buscando sempre o melhor para nossos clientes, cartão grátis, anuidade zero e suporte integral. </p>
       </div>
 
       <div class="imagem">
-        <img src="img/home.png" alt="" />
+        <img src="img/home.png" alt="Celular balançando com o aplicativo do banco na tela"  aria-hidden="false"/>
       </div>
     </main>
+  <!-- Fim Home -->
+
+
+
 <!-- Produto -->
    <section id="produtos"> 
     <h2>Produtos</h2> 
@@ -87,9 +97,40 @@
 </section>
 
 
+<section class="produtos" id="produtos">
+
+  <h1 class="titulo"> Nossos Produtos </h1>
+
+  <div class="box-conteudo">
+
+      <div class="box">
+          <img src="img/icone1.png" alt="Modelo do cartão" aria-hidden="false">
+          <h3>Cartão sem taxa</h3>
+          <p>Cartão Grátis, Zero Anuidade, Débito, Crédito e Cartão Virtual. Escolha o modelo que mais combina com você!</p>
+          <a href="#" class="btn">Veja Mais!</a>
+      </div>
+
+      <div class="box">
+          <img src="img/icone2.png" alt="Imagem mostrando o menu do aplicativo com as opções que o banco oferece, " aria-hidden="false">
+          <h3>Conta corrente digital</h3>
+          <p>Um Shopping na palma da mão, CashBack Digital, Acesso Ilimitado a saldo, extrato, saques e transfêrencias. Confira nosso Home Broker</p>
+          <a href="#" class="btn">Veja Mais!</a>
+      </div>
+
+      <div class="box">
+          <img src="img/icone3.png" alt="Imagem mostrando o menu de empréstimos que o banco oferece" aria-hidden="false">
+          <h3>Empréstimo descomplicado</h3>
+          <p>Não quer sair de casa? Com a F4BANK você consulta emprestimos na hora que quiser!Contamos com diversas opções que se adequam a sua necessidade</p>
+          <a href="#" class="btn">Veja Mais!</a>
+      </div>
+
+  </div>
+
+</section>
 
 
 
+<!-- Fim Produto-->
 
 
 
@@ -101,58 +142,37 @@
         <h2>F4</h2>
         <p>Os nossos melhores investimentos.</p>
         <p>
-          Somos o maior banco público do pais com 100 anos de tradição
+          Somos um banco com 100 anos de tradição, graças à visão no futuro e adaptabilidade as necessidades eminentes.
           inovadora.
         </p>
       </div>
       <div class="sobre-nos-box">
-        <img
-          class=""
-          title="Esporte"
-          alt="Esportes"
-          src="./img/jonathan-chng-HgoKvtKpyHA-unsplash.jpg"
-          aria-hidden="false"
-        />
+        <img class="" title="Esporte" alt="Atletas participando de uma competição de corrida" src="./img/jonathan-chng-HgoKvtKpyHA-unsplash.jpg" aria-hidden="false">
         <h3>Esportes</h3>
         <span>Esportes</span>
-        <p class="sobre-nos-descricao">Há mais de 50 anos apoiando atletas .</p>
+        <p class="sobre-nos-descricao">Há mais de 50 anos apoiando atletas</p>
       </div>
 
       <div class="sobre-nos-box">
-        <img
-          title="Cultura"
-          alt="Cultura"
-          src="./img/alevision-co-x2Or94kjaqo-unsplash.jpg"
-          aria-hidden="false"
-        />
+        <img title="Cultura" alt="Foto tirada de cima de uma cidade, com prédios históricos " src="./img/alevision-co-x2Or94kjaqo-unsplash.jpg" aria-hidden="false">
         <h3>Cultura</h3>
         <span>Cultura</span>
         <p class="sobre-nos-descricao">
-          Construindo o futuro e preservando o passado.<br />
+          Moldando o futuro e honrando o passado.<br />
         </p>
       </div>
 
       <div class="sobre-nos-box">
-        <img
-          title="Sustentabilidade"
-          alt="Sustentabilidade"
-          src="./img/abby-anaday-Nnn2Dc6niVU-unsplash.jpg"
-          aria-hidden="false"
-        />
+        <img title="Sustentabilidade" alt="Campo verde com céu azul e moinhos de vento" src="./img/abby-anaday-Nnn2Dc6niVU-unsplash.jpg" aria-hidden="false">
         <h3>Sustentabilidade</h3>
         <span>Sustentabilidade</span>
         <p class="sobre-nos-descricao">
-          Massivo investimentos em projetos verdes.
+          Investimentos focados em projetos verdes.
         </p>
       </div>
 
       <div class="sobre-nos-box">
-        <img
-          title="Ética"
-          alt="Ética"
-          src="./img/cytonn-photography-vWchRczcQwM-unsplash.jpg"
-          aria-hidden="false"
-        />
+        <img title="Ética" alt="Duas mãos se cumprimentando" src="./img/cytonn-photography-vWchRczcQwM-unsplash.jpg" aria-hidden="false">
         <h3>Ética</h3>
         <span>Ética</span>
         <p class="sobre-nos-descricao">
@@ -161,12 +181,7 @@
       </div>
 
       <div class="sobre-nos-box">
-        <img
-          title="Educação"
-          alt="Educação"
-          src="./img/national-cancer-institute-N_aihp118p8-unsplash.jpg"
-          aria-hidden="false"
-        />
+        <img title="Educação" alt="Sala de aula com professor a frente, vários alunos e um com a mão levantada" src="./img/national-cancer-institute-N_aihp118p8-unsplash.jpg" aria-hidden="false">
         <h3>Educação</h3>
 
         <span>Educação</span>
@@ -174,12 +189,7 @@
       </div>
 
       <div class="sobre-nos-box">
-        <img
-          title="Futuro"
-          alt="Futuro"
-          src="./img/nikola-jovanovic-OBok3F8buKY-unsplash.jpg"
-          aria-hidden="false"
-        />
+        <img title="Futuro" alt="Mulher segurando um punhado de terra na mão com uma planta germinada" src="./img/nikola-jovanovic-OBok3F8buKY-unsplash.jpg" aria-hidden="false">
         <h3>Futuro</h3>
         <span>Futuro</span>
         <p class="sobre-nos-descricao">
@@ -191,6 +201,80 @@
 
     <!-- Final do sobre nos -->
 
-    <footer>Footer</footer>
+
+
+    <!-- Inicio Contato  -->
+
+<section class="contato" id="contato">
+
+  <div class="imagem">
+    <img src="img/contato.png" alt="Rosto de uma mulher sorridente segurando o cartão em frente ao olho esquerdo">
+  </div>
+
+  <form action="https://formspree.io/f/mqknajzk"  method="POST">
+
+      <h1 class="titulo">Entre em contato!</h1>
+
+      <div class="inputBox">
+          <input type="text" required>
+          <label>Nome</label>
+      </div>
+
+      <div class="inputBox">
+          <input type="email" name="_replyto" required >
+          <label>E-mail</label>
+      </div>
+
+      <div class="inputBox">
+          <input type="number" required>
+          <label>Telefone</label>
+      </div>
+
+      <div class="inputBox">
+          <textarea required name="message" id="" cols="30" rows="10"></textarea>
+          <label>Digite aqui sua mensagem!</label>
+      </div>
+
+      <input type="submit" class="btn" value="enviar mensagem">
+
+  </form>
+
+</section>
+
+<!--Fim contato -->
+  <!-- Inicio Footer-->
+    <footer>
+
+        <div class="box-conteudo">
+
+            <div class="box">
+                <h3>Sobre a F4BANK</h3>
+                <a href="#quem-somos">quem somos</a>
+                <a href="#investidores">nossos investidores</a>
+                <a href="#sustentabilidade">sustentabilidade</a>
+                <a href="#transparência">transparência</a>
+
+            </div>
+
+            <div class="box">
+                <h3>Links Rapidos</h3>
+                <a href="#home">Home</a>
+                <a href="#sobre">Sobre</a>
+                <a href="#produtos">Produtos</a>
+                <a href="#contato">Contato</a>
+            </div>
+
+            <div class="box">
+                <h3>Siga nossas redes sociais</h3>
+                <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-square"> facebook</i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"> instagram</i></a>
+                <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin-in"> LinkedIn</i></a>
+            </div>
+
+
+            <h1 class="credito"> © 2022 F4BANK S.A 32.487.659/0001-02  </h1>
+
+    </footer>
+   <!-- Fim Footer--> 
   </body>
 </html>
