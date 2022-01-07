@@ -1,3 +1,7 @@
+
+// Com os conceitos de DOM esse arquivo manipula os eventos do botão hamburguer do menu para setar atributos de acessibilidade
+
+
 const btnMobile = document.getElementById('btn-mobile');
 
 function toggleMenu(event) {
