@@ -21,8 +21,7 @@
     text-decoration: none;
     outline: none;
     border: none;
-    text-transform: capitalize;
-
+    
 
     /* border: 1px solid red; */
 }
@@ -593,4 +592,14 @@ footer .box-conteudo .box a{
 
 footer .box-conteudo .box a:hover{
     text-decoration: underline;
+}
+
+footer .credito{
+    font-size: 2rem;
+    font-weight: normal;
+    letter-spacing: .2rem;
+    color:var(--branco);
+    border-top: .2rem solid #fff5;
+    padding:2.5rem 1rem;
+    text-align: center;
 }
